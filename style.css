@@ -13,7 +13,7 @@ body{
 }
 
 .bar-top{
-    width: 100vw;
+    width: 100%;
     height: 60px;
     justify-content: end;
     padding: 5px;
@@ -38,7 +38,7 @@ body{
 }
 
 .container{
-    width: 100vw;
+    width: 100%;
     margin: auto;
     flex-wrap: wrap;
     padding-bottom: 10px;
@@ -46,10 +46,10 @@ body{
 
 img{
     display: block;
+
 }
 
-.col-7{
-    width: calc((100% / 12 ) * 7 );
+.window{
     padding: 2px;
     margin: auto;
     position: relative;
@@ -68,8 +68,7 @@ img{
 }
 
 .bar-bottom{
-    width: 100vw;
+    width: 100%;
     height: 70px; 
     background-color: grey;
 }
-
