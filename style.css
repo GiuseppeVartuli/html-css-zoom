@@ -15,9 +15,10 @@ header{
 footer{
     height: 80px;
     width: 100%;
+    background-color: gray;
 }
-main{
-    height: calc(100vh -160px) ;
+main {
+    height: calc(100vh - 160px) ;
     width: 100%;
     overflow-y: auto;
 }
@@ -25,7 +26,6 @@ main{
     display: flex;
 }
 .container{
-
     flex-wrap: wrap;
     
 }
@@ -72,7 +72,25 @@ main{
     left: 0;
 }
 
-.bar-bottom{
-    display: flex;
+.justify-space-between{
     justify-content: space-between;
+}
+
+
+.bar-bottom{
+    width: 100%;
+}
+.left{
+    width: 20%;
+    gap: 1rem;
+}
+.center{
+    width: 60%;
+    gap: 1rem;
+    align-items: center;
+}
+.right{
+    width: 20%;
+    gap: 1rem;
+    align-items: end;
 }
