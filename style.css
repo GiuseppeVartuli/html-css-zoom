@@ -33,7 +33,7 @@ main {
     margin: auto;
     position: relative;
     aspect-ratio: 16/9;
-    
+    padding: 5px;
 }
 .window img{
     display: block;
@@ -79,16 +79,23 @@ main {
 
 .bar-bottom{
     width: 100%;
+    
 }
-.left{
+.left , .center , .right{
     gap: 1rem;
+    font-size: x-large;
+    padding: 15px;
+    text-align: center;
 }
-.center{
-    gap: 1rem;
-}
+
 .fa-share-from-square{
     color: green;
 }
+
+.end{
+    color: red;
+}
+
 .right{
-    gap: 1rem;
+    background-color: rgb(70, 68, 68);
 }
