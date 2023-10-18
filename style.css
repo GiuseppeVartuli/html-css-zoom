@@ -16,6 +16,8 @@ footer{
     height: 80px;
     width: 100%;
     background-color: gray;
+    display: flex;
+    justify-content: space-between;
 }
 main {
     height: calc(100vh - 160px) ;
@@ -68,8 +70,8 @@ main {
     padding: 2px;
     background-color: rgba(128, 128, 128, 0.74);
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 5px;
+    left: 5px;
 }
 
 .justify-space-between{
@@ -77,13 +79,10 @@ main {
 }
 
 
-.bar-bottom{
-    width: 100%;
-    
-}
+
 .left , .center , .right{
     gap: 1rem;
-    font-size: x-large;
+
     padding: 15px;
     text-align: center;
 }
@@ -98,4 +97,8 @@ main {
 
 .right{
     background-color: rgb(70, 68, 68);
+}
+
+.bar-bottom i {
+    font-size: 25px;
 }
